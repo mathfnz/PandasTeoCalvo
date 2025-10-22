@@ -12,5 +12,5 @@ series_age = pd.Series(idades)
 age_average = series_age.mean()
 age_variable = series_age.var()
 summary_age = series_age.describe()
-age_variable
-summary_age
+print(age_variable)
+print(summary_age)
